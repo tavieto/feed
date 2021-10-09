@@ -15,9 +15,4 @@
         android:name="com.br.usemobile.feed.presentation.profile.ProfileFragment"
         android:label="profile_fragment"
         tools:layout="@layout/fragment_profile" />
-    <fragment
-        android:id="@+id/postFragment"
-        android:name="com.br.usemobile.feed.presentation.post.PostFragment"
-        android:label="post_fragment"
-        tools:layout="@layout/fragment_post" />
 </navigation>

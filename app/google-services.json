@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532584167830",
+    "project_id": "usemobile-feed",
+    "storage_bucket": "usemobile-feed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532584167830:android:30f34d728547c80c1805b7",
+        "android_client_info": {
+          "package_name": "com.br.usemobile.feed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532584167830-jenn0pteb84jql0538nohmj37i2ag8t5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVsetq8kHZaLDGZaJZCkuNeJMVH7WgGHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532584167830-jenn0pteb84jql0538nohmj37i2ag8t5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
