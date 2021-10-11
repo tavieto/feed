@@ -47,13 +47,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/lato_bold"
-            android:text="Samilly Santos"
+            android:text="Matheus Bissoli"
             android:textColor="@color/black"
             android:textSize="15sp" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_post"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="2dp"

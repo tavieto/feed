@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.br.usemobile.feed.R
 import com.br.usemobile.feed.domain.Post
 import com.br.usemobile.feed.common.loadImage
 import com.br.usemobile.feed.databinding.ItemFeedBinding
@@ -18,6 +19,9 @@ class FeedAdapter : RecyclerView.Adapter<FeedAdapter.PostViewHolder>() {
                 txtUserName.text = item.userName
                 txtDate.text = item.dateCreate
                 imgUser.loadImage(binding.root, item.userImagePath)
+                if (item.likes.size > 0) {
+                    imgLike.setBackgroundResource(R.drawable.ic_like_red)
+                }
                 txtPost.text = item.body
                 txtLikesNumber.text = item.likes.size.toString()
                 txtCommentsNumber.text = item.comments.size.toString()

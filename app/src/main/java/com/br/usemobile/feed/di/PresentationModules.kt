@@ -1,4 +1,4 @@
-package com.br.usemobile.feed.di.presentation
+package com.br.usemobile.feed.di
 
 import com.br.usemobile.feed.presentation.MainViewModel
 import com.br.usemobile.feed.presentation.profile.ProfileViewModel

@@ -1,7 +1,7 @@
 package com.br.usemobile.feed
 
 import android.app.Application
-import com.br.usemobile.feed.di.presentation.presentationModules
+import com.br.usemobile.feed.di.presentationModules
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
