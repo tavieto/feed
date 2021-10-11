@@ -50,7 +50,7 @@ class PostActivity : AppCompatActivity() {
                         Post(
                             "1",
                             "Matheus Bissoli",
-                            "https://media-exp1.licdn.com/dms/image/C4E03AQG_WPraZUwRZQ/profile-displayphoto-shrink_800_800/0/1628554727149?e=1639612800&v=beta&t=Lw_FVZ31Uydc-QnGyqx70vssSOIeBoXv248IO6j3Tpw",
+                            "https://media-exp1.licdn.com/dms/image/C5603AQG6Wp_dttcFSg/profile-displayphoto-shrink_800_800/0/1580260962373?e=1639612800&v=beta&t=FJyUvZ6ddBB4EGLGSNS6pgk-rob1YCixFy2aRNi6liA",
                             Date().time.toString(),
                             textPost.toString(),
                             listOf<Like>(),
